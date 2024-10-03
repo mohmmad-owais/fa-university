@@ -15,14 +15,12 @@ const SliderOne = () => {
               alt=""
               className="banner-one__scratch"
             />
-
-            <Image
-              src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className="banner-one__person"
+            <img
+              src="/images/main-slider/image-1.png"
               alt=""
-              width={600}
-              height={800}
+              className="banner-one__scratch"
             />
+
             <div className="row no-gutters">
               <div className="col-xl-12 z-index-1">
                 <h1 className="banner-one__title banner-one__light-color">
