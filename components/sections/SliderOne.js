@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const SliderOne = () => {
   return (
@@ -14,17 +15,20 @@ const SliderOne = () => {
               alt=""
               className="banner-one__scratch"
             />
-            <img
-              src="/images/main-slider/image-1.png"
+
+            <Image
+              src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               className="banner-one__person"
               alt=""
+              width={600}
+              height={800}
             />
             <div className="row no-gutters">
               <div className="col-xl-12 z-index-1">
                 <h1 className="banner-one__title banner-one__light-color">
                   Best <span className="style-font">online</span> <br />
                   courses from <br />
-                  eduLern
+                  FA University
                 </h1>
                 <p className="banner-one__tag-line">are you ready to learn?</p>
                 <a

@@ -24,6 +24,7 @@ const Header1 = ({
           <div className="logo-box">
             <div className="logo">
               <Link href="/">
+                {/* <h4>FA University</h4> */}
                 <Image src={LogoWhite} title="Edulrns" />
               </Link>
             </div>
@@ -64,7 +65,7 @@ const Header1 = ({
             <div className="upper-box">
               <div className="nav-logo">
                 <Link href="/">
-                  <Image src={LogoDark} title="Edulrns" />
+                  <Image src={LogoDark} title="FA University" />
                 </Link>
               </div>
               <div className="close-btn" onClick={handleRemove}>

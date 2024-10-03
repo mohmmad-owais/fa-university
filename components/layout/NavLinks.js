@@ -4,32 +4,13 @@ import React from "react";
 const NavLinks = ({ extraClassName }) => {
   return (
     <ul className={`navigation ${extraClassName}`}>
-      <li className="current dropdown">
+      <li>
         <Link href="/">Home</Link>
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/index-2">Home Layout 2</Link>
-          </li>
-          <li className="dropdown">
-            <Link href="/">Header Styles</Link>
-            <ul>
-              <li>
-                <Link href="/">Header Style 1</Link>
-              </li>
-              <li>
-                <Link href="/index-2">Header Style 2</Link>
-              </li>
-            </ul>
-          </li>
-        </ul>
       </li>
       <li>
         <Link href="/page-about">About</Link>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="/page-about">Pages</Link>
         <ul>
           <li className="dropdown">
@@ -56,19 +37,19 @@ const NavLinks = ({ extraClassName }) => {
             <Link href="/page-404">Page 404</Link>
           </li>
         </ul>
-      </li>
-      <li className="dropdown">
+      </li> */}
+      <li>
         <Link href="/page-courses">Courses</Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/page-courses">Courses Grid</Link>
           </li>
           <li>
             <Link href="/page-course-details">Cours Details</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="/news-grid">News</Link>
         <ul>
           <li>
@@ -78,7 +59,7 @@ const NavLinks = ({ extraClassName }) => {
             <Link href="/news-details">News Details</Link>
           </li>
         </ul>
-      </li>
+      </li> */}
       <li>
         <Link href="/page-contact">Contact</Link>
       </li>

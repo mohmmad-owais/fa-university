@@ -20,11 +20,7 @@ function MyApp({ Component, pageProps }) {
     });
     window.wow.init();
   }, []);
-  return (
-    <>
-      {!loading ? <Component {...pageProps} /> : <div class="preloader"></div>}
-    </>
-  );
+  return <>{<Component {...pageProps} />}</>;
 }
 
 export default MyApp;

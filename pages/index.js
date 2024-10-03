@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout/Layout";
 import SliderOne from "../components/sections/SliderOne";
 import AboutOne from "../components/sections/AboutOne";
-import AboutTwo from "../components/sections/AboutTwo";
+// import AboutTwo from "../components/sections/AboutTwo";
 import CategoryOne from "../components/sections/CategoryOne";
 import ClientOne from "../components/sections/ClientOne";
 import CountdownOne from "../components/sections/CountdownOne";
@@ -27,10 +27,9 @@ export default function Home() {
         <TeamOne />
         <CtaOne />
         <TestimonialOne />
-        <AboutTwo />
         <CountdownOne />
         <NewsOne />
-        <ClientOne />
+        {/* <ClientOne /> */}
       </Layout>
     </>
   );
