@@ -65,6 +65,9 @@ const NavLinks = ({ extraClassName }) => {
       <li className={currentPath === "/page-pricing" && "current"}>
         <Link href="/page-pricing">Pricing</Link>
       </li>
+      <li className={currentPath === "/page-testimonial" && "current"}>
+        <Link href="/page-testimonial">Testimonials</Link>
+      </li>
       <li className={currentPath === "/page-contact" && "current"}>
         <Link href="/page-contact">Contact</Link>
       </li>

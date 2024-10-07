@@ -77,7 +77,18 @@ const TeamOne = () => {
                   </div>
                   <div className="info-box">
                     <h4 className="name">
-                      <Link href="/page-team-details">{item.title}</Link>
+                      <Link
+                        href={{
+                          pathname: "/page-team-details",
+                          query: {
+                            name: item.title,
+                            desig: item.desig,
+                            img: item.img,
+                          },
+                        }}
+                      >
+                        {item.title}
+                      </Link>
                     </h4>
                     <span className="designation">{item.desig}</span>
                   </div>
