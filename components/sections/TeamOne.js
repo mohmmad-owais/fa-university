@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const TeamOne = () => {
   const data = [
@@ -40,14 +41,23 @@ const TeamOne = () => {
                 <div className="inner-box">
                   <div className="image-box">
                     <figure className="image">
-                      <a href="#">
+                      <Link
+                        href={{
+                          pathname: "/page-team-details",
+                          query: {
+                            name: item.title,
+                            desig: item.desig,
+                            img: item.img,
+                          },
+                        }}
+                      >
                         <img
                           style={{ objectFit: "cover" }}
                           className="w-100 h-100"
                           src={`images/resource/${item.img}`}
                           title="mentors"
                         />
-                      </a>
+                      </Link>
                     </figure>
                     <span className="share-icon fa fa-share-alt" />
                     <div className="social-links">
@@ -67,7 +77,7 @@ const TeamOne = () => {
                   </div>
                   <div className="info-box">
                     <h4 className="name">
-                      <a href="/page-team-details">{item.title}</a>
+                      <Link href="/page-team-details">{item.title}</Link>
                     </h4>
                     <span className="designation">{item.desig}</span>
                   </div>
