@@ -167,6 +167,9 @@ const MobileMenu = () => {
             <i class="fa fa-angle-down"></i>
           </div>
         </li> */}
+        <li className={currentPath === "/page-pricing" && "current"}>
+          <Link href="/page-pricing">Pricing</Link>
+        </li>
         <li className={currentPath === "/page-contact" && "current"}>
           <Link href="/page-contact">Contact</Link>
         </li>
