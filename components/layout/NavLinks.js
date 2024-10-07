@@ -1,13 +1,15 @@
 import Link from "next/link";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 const NavLinks = ({ extraClassName }) => {
+  const currentPath = usePathname();
   return (
     <ul className={`navigation ${extraClassName}`}>
-      <li>
+      <li className={currentPath === "/" && "current"}>
         <Link href="/">Home</Link>
       </li>
-      <li>
+      <li className={currentPath === "/page-about" && "current"}>
         <Link href="/page-about">About</Link>
       </li>
       {/* <li className="dropdown">
@@ -38,7 +40,7 @@ const NavLinks = ({ extraClassName }) => {
           </li>
         </ul>
       </li> */}
-      <li>
+      <li className={currentPath === "/page-courses" && "current"}>
         <Link href="/page-courses">Courses</Link>
         {/* <ul>
           <li>
@@ -60,7 +62,7 @@ const NavLinks = ({ extraClassName }) => {
           </li>
         </ul>
       </li> */}
-      <li>
+      <li className={currentPath === "/page-contact" && "current"}>
         <Link href="/page-contact">Contact</Link>
       </li>
     </ul>

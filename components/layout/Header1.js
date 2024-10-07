@@ -24,8 +24,8 @@ const Header1 = ({
           <div className="logo-box">
             <div className="logo">
               <Link href="/">
-                {/* <h4>FA University</h4> */}
-                <Image src={LogoWhite} title="Edulrns" />
+                <h4>FA University</h4>
+                {/* <Image src={LogoWhite} title="Edulrns" /> */}
               </Link>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Header1 = ({
                 <small>Call Anytime</small>
                 <br /> +92 (8800) - 8960
               </Link>
-              <div className="ui-btn-outer">
+              {/* <div className="ui-btn-outer">
                 <button
                   className="ui-btn ui-btn search-btn"
                   onClick={handleToggle}
@@ -49,10 +49,10 @@ const Header1 = ({
                 <Link href="/#" className="ui-btn">
                   <i className="lnr-icon-shopping-cart" />
                 </Link>
-              </div>
-              <Link href="/page-contact" className="theme-btn btn-style-one">
+              </div> */}
+              {/* <Link href="/page-contact" className="theme-btn btn-style-one">
                 <span className="btn-title">Try For Free</span>
-              </Link>
+              </Link> */}
               <div className="mobile-nav-toggler" onClick={handleOpen}>
                 <span className="icon lnr-icon-bars" />
               </div>
@@ -65,7 +65,8 @@ const Header1 = ({
             <div className="upper-box">
               <div className="nav-logo">
                 <Link href="/">
-                  <Image src={LogoDark} title="FA University" />
+                  <h4 className="text-white">FA University</h4>
+                  {/* <Image src={LogoDark} title="FA University" /> */}
                 </Link>
               </div>
               <div className="close-btn" onClick={handleRemove}>
@@ -143,6 +144,8 @@ const Header1 = ({
             </form>
           </div>
         </div>
+
+        {/* auto header  */}
         <div
           className={`sticky-header ${
             scroll ? "fixed-header animated slideInDown" : ""
@@ -152,7 +155,8 @@ const Header1 = ({
             <div className="inner-container">
               <div className="logo">
                 <Link href="/" title>
-                  <Image src={LogoWhite} title="Edulrns" />
+                  <h4>FA University</h4>
+                  {/* <Image src={LogoWhite} title="Edulrns" /> */}
                 </Link>
               </div>
               <div className="nav-outer">

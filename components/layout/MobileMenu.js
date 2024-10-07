@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const MobileMenu = () => {
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
   });
+
+  const currentPath = usePathname();
 
   const handleClick = (key) => {
     if (isActive.key === key) {
@@ -40,9 +43,9 @@ const MobileMenu = () => {
   return (
     <>
       <ul className="navigation clearfix">
-        <li class="current dropdown">
+        <li className={currentPath === "/" && "current"}>
           <Link href="">Home</Link>
-          <ul className={isActive.key === 1 ? "d-block" : "d-none"}>
+          {/* <ul className={isActive.key === 1 ? "d-block" : "d-none"}>
             <li>
               <Link href="/">Home Layout 1</Link>
             </li>
@@ -78,12 +81,12 @@ const MobileMenu = () => {
             onClick={() => handleClick(1)}
           >
             <i class="fa fa-angle-down"></i>
-          </div>
+          </div> */}
         </li>
-        <li>
+        <li className={currentPath === "/page-about" && "current"}>
           <Link href="/page-about">About</Link>
         </li>
-        <li class="dropdown">
+        {/* <li class="dropdown">
           <Link href="/#">Pages</Link>
           <ul className={isActive.key === 2 ? "d-block" : "d-none"}>
             <li class="dropdown">
@@ -125,27 +128,27 @@ const MobileMenu = () => {
           >
             <i class="fa fa-angle-down"></i>
           </div>
-        </li>
-        <li class="dropdown">
-          <Link href="/#">Courses</Link>
-          <ul className={isActive.key === 3 ? "d-block" : "d-none"}>
+        </li> */}
+        <li className={currentPath === "/page-courses" && "current"}>
+          <Link href="/page-courses">Courses</Link>
+          {/* <ul className={isActive.key === 3 ? "d-block" : "d-none"}>
             <li>
               <Link href="/page-services">Courses List</Link>
             </li>
             <li>
               <Link href="/page-service-details">Cours Details</Link>
             </li>
-          </ul>
-          <div
+          </ul> */}
+          {/* <div
             className={
               isActive.key === 3 ? "dropdown-btn active" : "dropdown-btn"
             }
             onClick={() => handleClick(3)}
           >
             <i class="fa fa-angle-down"></i>
-          </div>
+          </div> */}
         </li>
-        <li class="dropdown">
+        {/* <li class="dropdown">
           <Link href="/#">News</Link>
           <ul className={isActive.key === 5 ? "d-block" : "d-none"}>
             <li>
@@ -163,8 +166,8 @@ const MobileMenu = () => {
           >
             <i class="fa fa-angle-down"></i>
           </div>
-        </li>
-        <li>
+        </li> */}
+        <li className={currentPath === "/page-contact" && "current"}>
           <Link href="/page-contact">Contact</Link>
         </li>
       </ul>

@@ -23,12 +23,12 @@ export default function Home() {
         <CourseOne />
         <FeatureOne />
         <CategoryOne />
-        <SignupOne />
+        {/* <SignupOne /> */}
         <TeamOne />
         <CtaOne />
         <TestimonialOne />
-        <CountdownOne />
-        <NewsOne />
+        {/* <CountdownOne /> */}
+        {/* <NewsOne /> */}
         {/* <ClientOne /> */}
       </Layout>
     </>

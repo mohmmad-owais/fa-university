@@ -36,7 +36,7 @@ const Layout = ({ children, HeaderStyle }) => {
   return (
     <>
       <PageHead />
-      <div class="page-wrapper" id="top">
+      <div className="page-wrapper" id="top">
         {!HeaderStyle && (
           <Header1
             handleOpen={handleOpen}
