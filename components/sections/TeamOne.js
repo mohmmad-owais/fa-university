@@ -54,7 +54,7 @@ const TeamOne = () => {
                         <img
                           style={{ objectFit: "cover" }}
                           className="w-100 h-100"
-                          src={`images/mentor/${item.img}`}
+                          src={`images/resource/${item.img}`}
                           title="mentors"
                         />
                       </Link>

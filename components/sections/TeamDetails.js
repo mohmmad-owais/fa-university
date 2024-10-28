@@ -20,7 +20,7 @@ const TeamDetails = ({ alternate }) => {
                 <div className="team-details__top-left">
                   <div className="team-details__top-img">
                     {" "}
-                    <img src={`/images/mentor/${img}`} title={name} />
+                    <img src={`/images/resource/${img}`} title={name} />
                     <div className="team-details__big-text"></div>
                   </div>
                 </div>
