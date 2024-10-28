@@ -30,40 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/page-about": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-about.js"
-    ],
-    "/page-contact": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-contact.js"
-    ],
-    "/page-course-details": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-course-details.js"
-    ],
-    "/page-courses": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-courses.js"
-    ],
-    "/page-pricing": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-pricing.js"
-    ],
     "/page-team-details": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/page-team-details.js"
-    ],
-    "/page-testimonial": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-testimonial.js"
     ]
   },
   "ampFirstPages": []

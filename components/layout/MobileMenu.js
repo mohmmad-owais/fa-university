@@ -174,7 +174,7 @@ const MobileMenu = () => {
           <Link href="/page-testimonial">Testimonials</Link>
         </li>
         <li className={currentPath === "/page-contact" && "current"}>
-          <Link href="/page-contact">Contact</Link>
+          <Link href="/page-contact">Contact Us</Link>
         </li>
       </ul>
     </>

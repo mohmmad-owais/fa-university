@@ -2,12 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/page-contact": "pages/page-contact.js",
-  "/page-about": "pages/page-about.js",
-  "/": "pages/index.js",
-  "/page-testimonial": "pages/page-testimonial.js",
   "/page-team-details": "pages/page-team-details.js",
-  "/page-pricing": "pages/page-pricing.js",
-  "/page-courses": "pages/page-courses.js",
-  "/page-course-details": "pages/page-course-details.js"
+  "/": "pages/index.js"
 }

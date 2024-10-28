@@ -9,7 +9,7 @@ const ContactInner = () => {
           <div className="row">
             <div className="col-xl-7 col-lg-6">
               <div className="sec-title">
-                <span className="sub-title">Send us email</span>
+                <span className="sub-title">How Can We Help You?</span>
                 <h2>Feel free to write</h2>
               </div>
 
@@ -21,7 +21,7 @@ const ContactInner = () => {
                 method="post"
               >
                 <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
                       <input
                         name="form_name"
@@ -31,7 +31,7 @@ const ContactInner = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
                       <input
                         name="form_email"
@@ -43,23 +43,30 @@ const ContactInner = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
-                      <input
+                      <select
                         name="form_subject"
                         className="form-control required"
-                        type="text"
-                        placeholder="Enter Subject"
-                      />
+                        type="select"
+                      >
+                        What area of your life do you need help with?
+                        <option disabled selected>
+                          What area of your life do you need help with?
+                        </option>
+                        <option>Career</option>
+                        <option>Personal development</option>
+                        <option>Leadership</option>
+                      </select>
                     </div>
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
                       <input
-                        name="form_phone"
+                        name="form_text"
                         className="form-control"
                         type="text"
-                        placeholder="Enter Phone"
+                        placeholder="How would you like to grow or change?"
                       />
                     </div>
                   </div>
@@ -69,7 +76,7 @@ const ContactInner = () => {
                     name="form_message"
                     className="form-control required"
                     rows="7"
-                    placeholder="Enter Message"
+                    placeholder="What are your personal goals?"
                   ></textarea>
                 </div>
                 <div className="mb-3">
@@ -84,7 +91,9 @@ const ContactInner = () => {
                     className="theme-btn btn-style-one me-3"
                     data-loading-text="Please wait..."
                   >
-                    <span className="btn-title">Send message</span>
+                    <span className="btn-title">
+                      Request Your Personalized Mentorship
+                    </span>
                   </button>
                   <button
                     type="reset"
@@ -98,12 +107,19 @@ const ContactInner = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="contact-details__right mt-md-50">
                 <div className="sec-title">
-                  <span className="sub-title">Need any help?</span>
+                  <span className="sub-title">
+                    Book Initial Consultation with our mentors
+                  </span>
                   <h2>Get in touch with us</h2>
                   <div className="text">
-                    Lorem ipsum is simply free text available dolor sit amet
-                    consectetur notted adipisicing elit sed do eiusmod tempor
-                    incididunt simply dolore magna.
+                    <p>
+                      <strong>Mentorship process</strong>
+                    </p>
+                    <ul>
+                      <li>Initial consultation</li>
+                      <li>Personalized plan</li>
+                      <li>Regular one-on-one meetings</li>
+                    </ul>
                   </div>
                 </div>
                 <ul className="list-unstyled contact-details__info">

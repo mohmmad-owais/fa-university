@@ -20,7 +20,7 @@ const TeamDetails = ({ alternate }) => {
                 <div className="team-details__top-left">
                   <div className="team-details__top-img">
                     {" "}
-                    <img src={`/images/resource/${img}`} title={name} />
+                    <img src={`/images/mentor/${img}`} title={name} />
                     <div className="team-details__big-text"></div>
                   </div>
                 </div>
@@ -83,23 +83,23 @@ const TeamDetails = ({ alternate }) => {
                     <div className="skills">
                       <div className="skill-item">
                         <div className="skill-header">
-                          <h6 className="skill-title">Technology</h6>
+                          <h6 className="skill-title">{desig}</h6>
                         </div>
                         <div className="skill-bar">
                           <div className="bar-inner">
                             <div
                               className="bar progress-line"
-                              data-width={77}
-                              style={{ width: `77%` }}
+                              data-width={90}
+                              style={{ width: `90%` }}
                             >
                               <div className="skill-percentage">
                                 <div className="count-box">
                                   <span
                                     className="count-text"
                                     data-speed={3000}
-                                    data-stop={77}
+                                    data-stop={90}
                                   >
-                                    77
+                                    90
                                   </span>
                                   %
                                 </div>
@@ -186,7 +186,7 @@ const TeamDetails = ({ alternate }) => {
               <div className="sec-title text-center">
                 <span className="sub-title">Contact With Us Now</span>
                 <h2 className="section-title__title">
-                  Feel Free to Write Our Tecnology Experts
+                  Feel Free to Write Our Experts
                 </h2>
               </div>
               <form
@@ -194,9 +194,10 @@ const TeamDetails = ({ alternate }) => {
                 name="contact_form"
                 className=""
                 action="#"
+                method="post"
               >
                 <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
                       <input
                         name="form_name"
@@ -206,7 +207,7 @@ const TeamDetails = ({ alternate }) => {
                       />
                     </div>
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
                       <input
                         name="form_email"
@@ -218,23 +219,30 @@ const TeamDetails = ({ alternate }) => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
-                      <input
+                      <select
                         name="form_subject"
                         className="form-control required"
-                        type="text"
-                        placeholder="Enter Subject"
-                      />
+                        type="select"
+                      >
+                        What area of your life do you need help with?
+                        <option disabled selected>
+                          What area of your life do you need help with?
+                        </option>
+                        <option>Career</option>
+                        <option>Personal development</option>
+                        <option>Leadership</option>
+                      </select>
                     </div>
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col-sm-12">
                     <div className="mb-3">
                       <input
-                        name="form_phone"
+                        name="form_text"
                         className="form-control"
                         type="text"
-                        placeholder="Enter Phone"
+                        placeholder="How would you like to grow or change?"
                       />
                     </div>
                   </div>
@@ -243,21 +251,30 @@ const TeamDetails = ({ alternate }) => {
                   <textarea
                     name="form_message"
                     className="form-control required"
-                    rows="5"
-                    placeholder="Enter Message"
-                  />
+                    rows="7"
+                    placeholder="What are your personal goals?"
+                  ></textarea>
                 </div>
-                <div className="mb-3 text-center">
+                <div className="mb-3">
                   <input
                     name="form_botcheck"
                     className="form-control"
                     type="hidden"
-                    value="/page-team-details"
+                    value=""
                   />
-                  <button type="submit" className="theme-btn btn-style-one">
-                    <span className="btn-title">Send message</span>
+                  <button
+                    type="submit"
+                    className="theme-btn btn-style-one me-3"
+                    data-loading-text="Please wait..."
+                  >
+                    <span className="btn-title">
+                      Request Your Personalized Mentorship
+                    </span>
                   </button>
-                  <button type="reset" className="theme-btn btn-style-one mx-3">
+                  <button
+                    type="reset"
+                    className="theme-btn btn-style-one bg-theme-color5"
+                  >
                     <span className="btn-title">Reset</span>
                   </button>
                 </div>

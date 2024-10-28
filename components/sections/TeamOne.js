@@ -4,23 +4,23 @@ import Link from "next/link";
 const TeamOne = () => {
   const data = [
     {
-      img: "team-1.jpg",
-      title: "Edward norton",
+      img: "fitness01.jpg",
+      title: "Anton",
       desig: "Fitness",
     },
     {
-      img: "team-2.jpg",
-      title: "Jane seymour",
-      desig: "Lifestyle",
+      img: "fitness02.jpg",
+      title: "Faggy",
+      desig: "Fitness",
     },
     {
-      img: "team-3.jpg",
-      title: "Mike hardson",
-      desig: "Money",
+      img: "other01.jpg",
+      title: "Anton",
+      desig: "Lifestyle ",
     },
     {
-      img: "team-4.jpg",
-      title: "Christine eve",
+      img: "other02.jpg",
+      title: "Faggy",
       desig: "Relationships",
     },
   ];
@@ -54,7 +54,7 @@ const TeamOne = () => {
                         <img
                           style={{ objectFit: "cover" }}
                           className="w-100 h-100"
-                          src={`images/resource/${item.img}`}
+                          src={`images/mentor/${item.img}`}
                           title="mentors"
                         />
                       </Link>
