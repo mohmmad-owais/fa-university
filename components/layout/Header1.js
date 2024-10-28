@@ -24,8 +24,13 @@ const Header1 = ({
           <div className="logo-box">
             <div className="logo">
               <Link href="/">
-                <h4>FA University</h4>
-                {/* <Image src={LogoWhite} title="Edulrns" /> */}
+                {/* <h4>FA University</h4> */}
+                <Image
+                  src={LogoWhite}
+                  width={100}
+                  height={100}
+                  title="FA University"
+                />
               </Link>
             </div>
           </div>
@@ -63,10 +68,14 @@ const Header1 = ({
           <div className="menu-backdrop" onClick={handleRemove} />
           <nav className="menu-box">
             <div className="upper-box">
-              <div className="nav-logo">
+              <div className="">
                 <Link href="/">
-                  <h4 className="text-white">FA University</h4>
-                  {/* <Image src={LogoDark} title="FA University" /> */}
+                  <Image
+                    src={LogoWhite}
+                    width={100}
+                    height={100}
+                    title="FA University"
+                  />
                 </Link>
               </div>
               <div className="close-btn" onClick={handleRemove}>
@@ -155,8 +164,12 @@ const Header1 = ({
             <div className="inner-container">
               <div className="logo">
                 <Link href="/" title>
-                  <h4>FA University</h4>
-                  {/* <Image src={LogoWhite} title="Edulrns" /> */}
+                  <Image
+                    src={LogoWhite}
+                    width={100}
+                    height={100}
+                    title="FA University"
+                  />
                 </Link>
               </div>
               <div className="nav-outer">

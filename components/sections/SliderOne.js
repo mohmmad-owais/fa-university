@@ -23,17 +23,19 @@ const SliderOne = () => {
 
             <div className="row no-gutters">
               <div className="col-xl-12 z-index-1">
-                <h1 className="banner-one__title banner-one__light-color">
-                  Best <span className="style-font">online</span> <br />
-                  courses from <br />
-                  FA University
-                </h1>
-                <p className="banner-one__tag-line">are you ready to learn?</p>
+                <h2 className="banner-one__title banner-one__light-color">
+                  Transform Your Future <br />
+                  with FA University <br />
+                  One-on-One
+                  <br /> Mentorship to Unlock <br />
+                  Your Full Potential
+                </h2>
+                {/* <p className="banner-one__tag-line">are you ready to learn?</p> */}
                 <a
                   href="/page-courses"
                   class="theme-btn btn-style-one bg-theme-color2"
                 >
-                  Find Course
+                  Request a Personal Mentor
                 </a>
               </div>
             </div>

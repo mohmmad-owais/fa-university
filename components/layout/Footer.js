@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import LogoWhite from "./../../public/images/logo.png";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -18,8 +20,12 @@ const Footer = () => {
                 <div className="footer-widget about-widget">
                   <div className="logo">
                     <Link href="/">
-                      <h4 className="text-white">FA University</h4>
-                      {/* <img src="images/logo-2.png" title="Edulrns" /> */}
+                      <Image
+                        src={LogoWhite}
+                        width={100}
+                        height={100}
+                        title="FA University"
+                      />{" "}
                     </Link>
                   </div>
 

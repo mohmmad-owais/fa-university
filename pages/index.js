@@ -12,6 +12,8 @@ import FeatureOne from "../components/sections/FeatureOne";
 import NewsOne from "../components/sections/NewsOne";
 import SignupOne from "../components/sections/SignupOne";
 import TeamOne from "../components/sections/TeamOne";
+import HowWeHelp from "../components/sections/HowWeHelp";
+import WhatWeDo from "../components/sections/WhatWeDo";
 import TestimonialOne from "../components/sections/TestimonialOne";
 
 export default function Home() {
@@ -19,7 +21,8 @@ export default function Home() {
     <>
       <Layout HeaderStyle="one">
         <SliderOne />
-        <AboutOne />
+        <WhatWeDo />
+        <HowWeHelp />
         <CourseOne />
         <FeatureOne />
         <CategoryOne />

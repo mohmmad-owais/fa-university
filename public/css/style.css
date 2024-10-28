@@ -46,7 +46,7 @@ License: copyright commercial
 @import url("tm-utility-classes.css");
 :root {
   --theme-color1: #191e24;
-  --theme-color2: #00c7c4;
+  --theme-color2: #d51010;
   --theme-color3: #7054e6;
   --theme-color4: #f89321;
   --theme-color5: #ef5c72;
@@ -4100,7 +4100,8 @@ Section Title
 .features-section {
   position: relative;
   padding: 80px 0 30px;
-  background-color: var(--bg-theme-color3);
+  opacity:5;
+  background-color: var(--bg-theme-color2);
   z-index: 2;
 }
 .features-section:before {
@@ -11003,7 +11004,7 @@ Sidebar
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background-color: #7c4bc0;
+  background-color: #d51010;
   right: 35%;
   top: 20%;
   -webkit-animation-name: bubbleMoveTwo;
@@ -11016,7 +11017,7 @@ Sidebar
   width: 106px;
   height: 106px;
   border-radius: 50%;
-  border: 24px solid #33a9bb;
+  border: 24px solid #d51010;
   right: 55%;
   bottom: 10%;
   -webkit-animation-name: globeRotate;
