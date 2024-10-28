@@ -34,7 +34,15 @@ const CtaOne = () => {
             </div>
             <div className="image-column col-lg-4 col-md-12">
               <figure className="image">
-                <img src="images/resource/cta.png" title="Edulrns" />
+                <img
+                  style={{
+                    width: "500px",
+                    height: "900px",
+                    objectFit: "contain",
+                  }}
+                  src="images/main-slider/image-1.png"
+                  title=""
+                />
               </figure>
             </div>
           </div>

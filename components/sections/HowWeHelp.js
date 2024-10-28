@@ -57,10 +57,10 @@ const AboutOne = () => {
               </div>
               <div className="inner-column wow fadeInLeft">
                 <figure className="image-1 overlay-anim wow fadeInUp">
-                  <img src="images/resource/about-1.png" title="Edulrns" />
+                  <img src="images/resource/about-1.jpg" title="team1" />
                 </figure>
                 <figure className="image-2 overlay-anim wow fadeInRight">
-                  <img src="images/resource/about-2.jpg" title="Edulrns" />
+                  <img src="images/resource/about-2.jpg" title="team2" />
                 </figure>
 
                 <div className="experience bounce-y">

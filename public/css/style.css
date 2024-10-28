@@ -154,7 +154,7 @@ License: copyright commercial
 }
 
 body {
-  background-color: #0e2207;
+  background-color: #ffff;
   background-attachment: fixed;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
@@ -166,6 +166,7 @@ body {
   font-family: var(--text-font);
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
+
 }
 
 p, .text {

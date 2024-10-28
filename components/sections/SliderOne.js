@@ -15,11 +15,16 @@ const SliderOne = () => {
               alt=""
               className="banner-one__scratch"
             />
-            <img
+            {/* <img
               src="/images/main-slider/image-1.png"
               alt=""
-              className="banner-one__scratch"
-            />
+              style={{
+                width: "800px",
+                height: "800px",
+                objectFit: "contain",
+              }}
+              className="banner-one__scratch ms-5"
+            /> */}
 
             <div className="row no-gutters">
               <div className="col-xl-12 z-index-1">
