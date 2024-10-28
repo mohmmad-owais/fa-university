@@ -39,11 +39,11 @@ const Header1 = ({
               <NavLinks extraClassName="header1" />
             </nav>
             <div className="outer-box">
-              <Link href="tel:+92(8800)9806" className="info-btn">
+              {/* <Link href="tel:+92(8800)9806" className="info-btn">
                 <i className="icon fa fa-phone" />
                 <small>Call Anytime</small>
                 <br /> +92 (8800) - 8960
-              </Link>
+              </Link> */}
               {/* <div className="ui-btn-outer">
                 <button
                   className="ui-btn ui-btn search-btn"
@@ -55,9 +55,19 @@ const Header1 = ({
                   <i className="lnr-icon-shopping-cart" />
                 </Link>
               </div> */}
-              {/* <Link href="/page-contact" className="theme-btn btn-style-one">
-                <span className="btn-title">Try For Free</span>
-              </Link> */}
+              <Link
+                href="/page-contact"
+                className="theme-btn p-3 btn-style-one "
+              >
+                <span className="btn-title">
+                  <small>Get Started with Mentorship</small>
+                </span>
+              </Link>
+              <Link href="/page-contact" className="theme-btn btn-style-one ">
+                <span className="btn-title">
+                  <small>Request Help</small>
+                </span>
+              </Link>
               <div className="mobile-nav-toggler" onClick={handleOpen}>
                 <span className="icon lnr-icon-bars" />
               </div>

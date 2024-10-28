@@ -88,7 +88,7 @@ const ContactInner = () => {
                   />
                   <button
                     type="submit"
-                    className="theme-btn btn-style-one me-3"
+                    className="theme-btn btn-style-one me-3 mb-2"
                     data-loading-text="Please wait..."
                   >
                     <span className="btn-title">

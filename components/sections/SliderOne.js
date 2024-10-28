@@ -32,7 +32,7 @@ const SliderOne = () => {
                 </h2>
                 {/* <p className="banner-one__tag-line">are you ready to learn?</p> */}
                 <a
-                  href="/page-courses"
+                  href="/page-contact"
                   class="theme-btn btn-style-one bg-theme-color2"
                 >
                   Request a Personal Mentor

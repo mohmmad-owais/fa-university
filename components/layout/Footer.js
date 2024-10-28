@@ -4,6 +4,7 @@ import LogoWhite from "./../../public/images/logo.png";
 import Image from "next/image";
 
 const Footer = () => {
+  const date = new Date();
   return (
     <>
       <footer className="main-footer">
@@ -91,14 +92,10 @@ const Footer = () => {
                       <Link href="#">About</Link>
                     </li>
                     <li>
-                      <Link href="#">Courses</Link>
+                      <Link href="/page-courses">Courses</Link>
                     </li>
                     <li>
-                      <Link href="#">Instructor</Link>
-                    </li>
-
-                    <li>
-                      <Link href="#">Instructor Profile</Link>
+                      <Link href="/page-contact">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -154,7 +151,8 @@ const Footer = () => {
           <div className="auto-container">
             <div className="inner-container">
               <div className="copyright-text">
-                © Copyright 2022 by <Link href="/">fauniversity.com</Link>
+                © Copyright {date?.getFullYear()} by{" "}
+                <Link href="/">fauniversity.com</Link>
               </div>
             </div>
           </div>

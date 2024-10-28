@@ -23,11 +23,12 @@ export default function Home() {
         <SliderOne />
         <WhatWeDo />
         <HowWeHelp />
-        <CourseOne />
+        <TeamOne />
         <FeatureOne />
+        <CourseOne />
         <CategoryOne />
         {/* <SignupOne /> */}
-        <TeamOne />
+
         <CtaOne />
         <TestimonialOne />
         {/* <CountdownOne /> */}

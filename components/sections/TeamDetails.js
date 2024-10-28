@@ -186,7 +186,7 @@ const TeamDetails = ({ alternate }) => {
               <div className="sec-title text-center">
                 <span className="sub-title">Contact With Us Now</span>
                 <h2 className="section-title__title">
-                  Feel Free to Write Our Experts
+                  Feel Free To Write Our Experts
                 </h2>
               </div>
               <form
@@ -264,10 +264,10 @@ const TeamDetails = ({ alternate }) => {
                   />
                   <button
                     type="submit"
-                    className="theme-btn btn-style-one me-3"
+                    className="theme-btn btn-style-one me-3 mb-2"
                     data-loading-text="Please wait..."
                   >
-                    <span className="btn-title">
+                    <span className="btn-title ">
                       Request Your Personalized Mentorship
                     </span>
                   </button>
