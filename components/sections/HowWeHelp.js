@@ -1,7 +1,14 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+import ReactPlayer from "react-player";
 
 const AboutOne = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
   return (
     <>
       <section className="about-section">
@@ -62,6 +69,7 @@ const AboutOne = () => {
                 <figure className="image-2 overlay-anim wow fadeInRight">
                   <img src="images/resource/about-2.jpg" title="Edulrns" />
                 </figure>
+
                 <div className="experience bounce-y">
                   <span className="count">16</span> Years of Experience
                 </div>
