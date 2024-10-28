@@ -1,14 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
-import ReactPlayer from "react-player";
-
 const AboutOne = () => {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
   return (
     <>
       <section className="about-section">
