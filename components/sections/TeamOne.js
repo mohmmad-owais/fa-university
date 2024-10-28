@@ -4,22 +4,22 @@ import Link from "next/link";
 const TeamOne = () => {
   const data = [
     {
-      img: "fitness01.jpg",
+      img: "team-3.jpg",
       title: "Anton",
       desig: "Fitness",
     },
     {
-      img: "fitness02.jpg",
+      img: "team-4.jpg",
       title: "Faggy",
       desig: "Fitness",
     },
     {
-      img: "other01.jpg",
+      img: "team-1.jpg",
       title: "Anton",
       desig: "Lifestyle ",
     },
     {
-      img: "other02.jpg",
+      img: "team-2.jpg",
       title: "Faggy",
       desig: "Relationships",
     },
