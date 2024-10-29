@@ -3,7 +3,10 @@ import React from "react";
 const FeatureOne = () => {
   return (
     <>
-      <section className="features-section">
+      <section
+        className="features-section"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.95)" }}
+      >
         <div className="auto-container">
           <h2 className="text-center text-light">Mentorship</h2>
           <p className="text-center text-light mb-5">

@@ -92,22 +92,25 @@ const PopularCourses = () => {
                       />
                     </Link>
                   </figure>
-                  <span className="price">${item.price}</span>
-                  <div className="value">Advanced</div>
+                  {/* <span className="price">${item.price}</span> */}
+                  <div className="value bg-danger">Limited Positions</div>
                 </div>
                 <div className="content-box">
-                  <ul className="course-info">
+                  {/* <ul className="course-info">
                     <li>
                       <i className="fa fa-book" /> {item.lesson} Lessons
                     </li>
                     <li>
                       <i className="fa fa-users" /> {item.students} Students
                     </li>
-                  </ul>
+                  </ul> */}
                   <h5 className="title">
-                    <Link href="/page-contact">{item.title}</Link>
+                    <Link href="/page-contact">
+                      <i className="fa fa-book text-danger px-1" />
+                      {item.title}
+                    </Link>
                   </h5>
-                  <div className="other-info">
+                  {/* <div className="other-info">
                     <div className="rating-box">
                       <span className="text">(4.9 /8 Rating)</span>
                       <div className="rating">
@@ -121,7 +124,7 @@ const PopularCourses = () => {
                     <div className="duration">
                       <i className="fa fa-clock" /> 3 Weeks
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

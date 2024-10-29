@@ -6,7 +6,9 @@ const CtaOne = () => {
     <>
       <section
         className="call-to-action"
-        style={{ backgroundImage: "url(./images/background/1.jpg)" }}
+        style={{
+          backgroundColor: "rgba(0, 0, 0, 0.95)",
+        }}
       >
         <div className="anim-icons">
           <span className="icon icon-calculator zoom-one" />

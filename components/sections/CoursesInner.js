@@ -5,42 +5,28 @@ const CourseTwo = () => {
   const data = [
     {
       img: "course-1.jpg",
-      title: "Starting seo as your home based business",
+      title: "Fitness ",
       price: 49.0,
       lesson: 8,
       students: 16,
     },
     {
       img: "course-2.jpg",
-      title: "Starting seo as your home based business",
+      title: "Lifestyle",
+      price: 49.0,
+      lesson: 8,
+      students: 16,
+    },
+    {
+      img: "course-4.jpg",
+      title: "Money",
       price: 49.0,
       lesson: 8,
       students: 16,
     },
     {
       img: "course-3.jpg",
-      title: "Starting seo as your home based business",
-      price: 49.0,
-      lesson: 8,
-      students: 16,
-    },
-    {
-      img: "course-2.jpg",
-      title: "Starting seo as your home based business",
-      price: 49.0,
-      lesson: 8,
-      students: 16,
-    },
-    {
-      img: "course-3.jpg",
-      title: "Starting seo as your home based business",
-      price: 49.0,
-      lesson: 8,
-      students: 16,
-    },
-    {
-      img: "course-1.jpg",
-      title: "Starting seo as your home based business",
+      title: "Relationships",
       price: 49.0,
       lesson: 8,
       students: 16,
@@ -57,19 +43,20 @@ const CourseTwo = () => {
                 <div className="inner-box">
                   <div className="image-box">
                     <figure className="image">
-                      <Link href="/page-course-details">
+                      <Link href="/page-contact">
                         <img
-                          style={{ height: "250px" }}
+                          style={{ height: "250px", objectFit: "cover" }}
                           src={`/images/resource/${item.img}`}
                           title="fa university"
                         />
                       </Link>
                     </figure>
-                    <span className="price">${item.price}</span>
-                    <div className="value">Advanced</div>
+                    {/* <span className="price">${item.price}</span>
+                    <div className="value">Advanced</div> */}
+                    <div className="value bg-danger">Limited Positions</div>
                   </div>
                   <div className="content-box">
-                    <ul className="course-info">
+                    {/* <ul className="course-info">
                       <li>
                         <i className="fa fa-book" /> {item.lesson} Lessons
                       </li>
@@ -79,11 +66,13 @@ const CourseTwo = () => {
                       <li>
                         <i className="fa fa-clock" /> 3 Weeks
                       </li>
-                    </ul>
+                    </ul> */}
                     <h5 className="title">
-                      <Link href="/page-course-details">{item.title}</Link>
+                      <Link href="/page-contact ">
+                        <i className="fa fa-book text-danger" /> {item.title}
+                      </Link>
                     </h5>
-                    <div className="other-info">
+                    {/* <div className="other-info">
                       <div className="rating-box">
                         <span className="text">(4.9 /8 Rating)</span>
                         <div className="rating">
@@ -97,7 +86,7 @@ const CourseTwo = () => {
                       <div className="duration">
                         <i className="fa fa-clock" /> 3 Weeks
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
