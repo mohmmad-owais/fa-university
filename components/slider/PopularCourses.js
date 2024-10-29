@@ -82,9 +82,9 @@ const PopularCourses = () => {
           <SwiperSlide>
             <div className="course-block">
               <div className="inner-box">
-                <div className="image-box">
+                {/* <div className="image-box">
                   <figure className="image">
-                    <Link href="/page-course-details">
+                    <Link href="/page-contact">
                       <img
                         style={{ height: "200px" }}
                         src={`/images/resource/${item.img}`}
@@ -94,7 +94,7 @@ const PopularCourses = () => {
                   </figure>
                   <span className="price">${item.price}</span>
                   <div className="value">Advanced</div>
-                </div>
+                </div> */}
                 <div className="content-box">
                   <ul className="course-info">
                     <li>
@@ -105,7 +105,7 @@ const PopularCourses = () => {
                     </li>
                   </ul>
                   <h5 className="title">
-                    <Link href="/page-course-details">{item.title}</Link>
+                    <Link href="/page-contact">{item.title}</Link>
                   </h5>
                   <div className="other-info">
                     <div className="rating-box">

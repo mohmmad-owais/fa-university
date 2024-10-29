@@ -26,11 +26,11 @@ export default function Home() {
         <TeamOne />
         <FeatureOne />
         <CourseOne />
-        <CategoryOne />
+        {/* <CategoryOne /> */}
         {/* <SignupOne /> */}
 
         <CtaOne />
-        <TestimonialOne />
+        {/* <TestimonialOne /> */}
         {/* <CountdownOne /> */}
         {/* <NewsOne /> */}
         {/* <ClientOne /> */}

@@ -63,9 +63,9 @@ const AboutOne = () => {
                   <img src="images/resource/about-2.jpg" title="team2" />
                 </figure>
 
-                <div className="experience bounce-y">
+                {/* <div className="experience bounce-y">
                   <span className="count">16</span> Years of Experience
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
