@@ -18,7 +18,7 @@ const SliderOne = () => {
 
             <div style={{ position: "relative", left: "10rem" }}>
               <img
-                src="/images/main-slider/image-2.png"
+                src="/images/slider-1-person-1.png"
                 alt=""
                 style={{
                   width: "900px",
