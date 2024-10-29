@@ -21,14 +21,14 @@ const PopularCourses = () => {
       students: 16,
     },
     {
-      img: "course-3.jpg",
+      img: "course-4.jpg",
       title: "Money",
       price: 49.0,
       lesson: 8,
       students: 16,
     },
     {
-      img: "course-4.jpg",
+      img: "course-3.jpg",
       title: "Relationships",
       price: 49.0,
       lesson: 8,
@@ -82,19 +82,19 @@ const PopularCourses = () => {
           <SwiperSlide>
             <div className="course-block">
               <div className="inner-box">
-                {/* <div className="image-box">
+                <div className="image-box">
                   <figure className="image">
                     <Link href="/page-contact">
                       <img
-                        style={{ height: "200px" }}
+                        style={{ height: "200px", objectFit: "cover" }}
                         src={`/images/resource/${item.img}`}
-                        title="Edulrns"
+                        title="courses"
                       />
                     </Link>
                   </figure>
                   <span className="price">${item.price}</span>
                   <div className="value">Advanced</div>
-                </div> */}
+                </div>
                 <div className="content-box">
                   <ul className="course-info">
                     <li>

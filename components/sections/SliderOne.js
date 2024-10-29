@@ -5,7 +5,10 @@ const SliderOne = () => {
   return (
     <div className="banner-wrapper">
       <section className="banner-one banner-carousel__one no-dots">
-        <div className=" banner-one__slide banner-one__slide-one">
+        <div
+          className=" banner-one__slide banner-one__slide-one"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.95)" }}
+        >
           <div className="container ">
             <div className="banner-one__bubble-1"></div>
             <div className="banner-one__bubble-2"></div>
