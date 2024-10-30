@@ -55,11 +55,11 @@ const TeamOne = () => {
                           style={{ objectFit: "cover" }}
                           className="w-100 h-100"
                           src={`images/resource/${item.img}`}
-                          title="mentors"
+                          title={item?.title}
                         />
                       </Link>
                     </figure>
-                    <span className="share-icon fa fa-share-alt" />
+                    {/* <span className="share-icon fa fa-share-alt" />
                     <div className="social-links">
                       <a href="#">
                         <i className="fab fa-twitter" />
@@ -73,7 +73,7 @@ const TeamOne = () => {
                       <a href="#">
                         <i className="fab fa-instagram" />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="info-box">
                     <h4 className="name">

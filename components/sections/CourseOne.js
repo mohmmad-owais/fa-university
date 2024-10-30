@@ -23,7 +23,7 @@ const CourseOne = () => {
               <PopularCourses />
             </div>
           </div>
-          <div className="bottom-text">
+          {/* <div className="bottom-text">
             <div className="content">
               <strong>23,000+</strong> more skillful courses you can explore{" "}
               <Link
@@ -33,7 +33,7 @@ const CourseOne = () => {
                 Explore All Courses
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
