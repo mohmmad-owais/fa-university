@@ -27,13 +27,15 @@ const AboutOne = () => {
                 </div>
                 <ul className="list-style-one two-column">
                   <li>
-                    <i className="icon fa fa-check" /> Career coaching
+                    <i className="icon fa fa-check bg-dark" /> Career coaching
                   </li>
                   <li>
-                    <i className="icon fa fa-check" /> Personal development
+                    <i className="icon fa fa-check bg-dark" /> Personal
+                    development
                   </li>
                   <li>
-                    <i className="icon fa fa-check" /> Leadership mentoring
+                    <i className="icon fa fa-check bg-dark" /> Leadership
+                    mentoring
                   </li>
                 </ul>
                 <div className="btn-box">

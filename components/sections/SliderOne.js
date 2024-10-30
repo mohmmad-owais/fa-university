@@ -10,9 +10,9 @@ const SliderOne = () => {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.95)" }}
         >
           <div className="container ">
-            <div className="banner-one__bubble-1"></div>
+            {/* <div className="banner-one__bubble-1"></div>
             <div className="banner-one__bubble-2"></div>
-            <div className="banner-one__bubble-3"></div>
+            <div className="banner-one__bubble-3"></div> */}
             {/* <img
               src="/images/slider-1-scratch.png"
               alt=""

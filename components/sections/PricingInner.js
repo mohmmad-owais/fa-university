@@ -24,7 +24,7 @@ const PricingOne = () => {
                 <ul className="features">
                   <li>3 Full Courses</li>
                   <li>Lifetime free support</li>
-                  <li>Upgrate options</li>
+                  <li>Upgrade options</li>
                   <li>9 Days Time</li>
                 </ul>
                 {/* <div className="btn-box">
@@ -51,7 +51,7 @@ const PricingOne = () => {
                 <ul className="features">
                   <li>3 Full Courses</li>
                   <li>Lifetime free support</li>
-                  <li>Upgrate options</li>
+                  <li>Upgrade options</li>
                   <li>9 Days Time</li>
                 </ul>
                 {/* <div className="btn-box">
@@ -78,7 +78,7 @@ const PricingOne = () => {
                 <ul className="features">
                   <li>3 Full Courses</li>
                   <li>Lifetime free support</li>
-                  <li>Upgrate options</li>
+                  <li>Upgrade options</li>
                   <li>9 Days Time</li>
                 </ul>
                 {/* <div className="btn-box">
