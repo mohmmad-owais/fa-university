@@ -113,7 +113,7 @@ const Header1 = ({
               <li>
                 <div className="contact-info-box">
                   <span className="icon lnr-icon-clock" />
-                  <span className="title">Send Email</span>
+                  <span className="title">Timings</span>
                   Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                 </div>
               </li>
