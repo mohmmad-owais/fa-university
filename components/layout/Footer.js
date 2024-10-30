@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <>
       <footer className="main-footer">
-        <div
+        {/* <div
           className="bg-image zoom-two"
           style={{ backgroundImage: "url(./images/background/4.jpg)" }}
-        />
+        /> */}
         {/*Widgets Section*/}
         <div className="widgets-section">
           <div className="auto-container">
@@ -30,10 +30,10 @@ const Footer = () => {
                     </Link>
                   </div>
 
-                  <div className="text">
+                  {/* <div className="text">
                     Get 26,000+ best online courses from us
-                  </div>
-                  <ul className="social-icon-two">
+                  </div> */}
+                  {/* <ul className="social-icon-two">
                     <li>
                       <Link href="#">
                         <i className="fab fa-twitter" />
@@ -54,7 +54,7 @@ const Footer = () => {
                         <i className="fab fa-instagram" />
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
               {/*Footer Column*/}
@@ -89,7 +89,7 @@ const Footer = () => {
                   <h4 className="widget-title">Links</h4>
                   <ul className="user-links">
                     <li>
-                      <Link href="#">About</Link>
+                      <Link href="/page-about">About</Link>
                     </li>
                     <li>
                       <Link href="/page-courses">Courses</Link>

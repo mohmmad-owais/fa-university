@@ -118,7 +118,7 @@ const Header1 = ({
                 </div>
               </li>
             </ul>
-            <ul className="social-links">
+            {/* <ul className="social-links">
               <li>
                 <Link href="/#">
                   <i className="fab fa-twitter" />
@@ -139,7 +139,7 @@ const Header1 = ({
                   <i className="fab fa-instagram" />
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </nav>
         </div>
         <div className="search-popup">

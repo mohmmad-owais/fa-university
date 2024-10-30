@@ -6,7 +6,7 @@ const SliderOne = () => {
     <div className="banner-wrapper">
       <section className="banner-one banner-carousel__one no-dots">
         <div
-          className=" banner-one__slide banner-one__slide-one"
+          className="  banner-one__slide-one"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.95)" }}
         >
           <div className="container ">

@@ -10,11 +10,11 @@ const CtaOne = () => {
           backgroundColor: "rgba(0, 0, 0, 0.95)",
         }}
       >
-        <div className="anim-icons">
+        {/* <div className="anim-icons">
           <span className="icon icon-calculator zoom-one" />
           <span className="icon icon-pin-clip zoom-one" />
           <span className="icon icon-dots" />
-        </div>
+        </div> */}
         <div className="auto-container">
           <div className="row">
             <div className="title-column col-lg-8 col-md-12">
